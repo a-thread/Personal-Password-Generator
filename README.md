@@ -26,6 +26,6 @@ If the user did not choose any of the criteria, an alert would pop up telling th
 
 ### Activity Notes
 
-When I first started this activity, I was pretty overwhelmed by JavaScript so I made [this password generator](https://a-thread.github.io/Personal-Password-Generator-Aiden/) using prompts instead of checkboxes. It works really well but didn't have the look or UX that I wanted so after doing a lot of research and asking for help from my tutor, I was able to create the one you see now. Making this one with interactive checkboxes and a slider, I feel like I understand how the program works much better! I think the biggest lesson here is to keep trying, even if it seems overwhelming.
+When I first started this activity, I was pretty overwhelmed by JavaScript so I made [this password generator](https://a-thread.github.io/Password-Generator-Aiden/) using prompts instead of checkboxes. It works really well but didn't have the look or UX that I wanted so after doing a lot of research and asking for help from my tutor, I was able to create the one you see now. Making this one with interactive checkboxes and a slider, I feel like I understand how the program works much better! I think the biggest lesson here is to keep trying, even if it seems overwhelming.
 
 **If you have any questions about this page or the application, email Aiden Threadgoode at *<aiden.threadgoode@gmail.com>.***
