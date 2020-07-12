@@ -15,9 +15,10 @@ The assignment required us to ask the user to choose a character length between 
 - lowercase letters
 - numbers
 - special characters
+
 I used a slider to determine the length of the password and checkboxes to interact with the user. 
 
-<img src="/assets/password-generator.png" width=400px alt="photo of Aiden's Password Propogator"/>
+<img src="/assets/password-generator.png" width=400px alt="photo of Aiden's Password Generator"/>
 
 If the user did not choose any of the criteria, an alert would pop up telling them that they had to choose one of the character types.
 
