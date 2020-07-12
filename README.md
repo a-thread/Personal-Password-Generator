@@ -18,7 +18,7 @@ The assignment required us to ask the user to choose a character length between 
 
 I used a slider to determine the length of the password and checkboxes to interact with the user. 
 
-<img src="/Assets/password-generator.png" width=400px alt="photo of Aiden's Password Generator"/>
+![Aiden's Password Generator site with checkboxes being ticked and working slider to generate password](/Assets/passwordGenerator.gif)
 
 If the user did not choose any of the criteria, an alert would pop up telling them that they had to choose one of the character types.
 
