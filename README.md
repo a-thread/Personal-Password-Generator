@@ -22,7 +22,7 @@ I used a slider to determine the length of the password and checkboxes to intera
 
 If the user did not choose any of the criteria, an alert would pop up telling them that they had to choose one of the character types.
 
-<img src="/Assets/check-one.png" width=400px alt="alert showing Please check one character type"/>
+![Alert showing choose one character](/Assets/choose-one.gif)
 
 ### Activity Notes
 
