@@ -18,10 +18,10 @@ The assignment required us to ask the user to choose a character length between 
 
 I used a slider to determine the length of the password and checkboxes to interact with the user. 
 
-<img src="/assets/password-generator.png" width=400px alt="photo of Aiden's Password Generator"/>
+<img src="/Assets/password-generator.png" width=400px alt="photo of Aiden's Password Generator"/>
 
 If the user did not choose any of the criteria, an alert would pop up telling them that they had to choose one of the character types.
 
-<img src="/assets/check-one.png" width=400px alt="alert showing Please check one character type"/>
+<img src="/Assets/check-one.png" width=400px alt="alert showing Please check one character type"/>
 
 **If you have any questions about this page or the application, email Aiden Threadgoode at *<aiden.threadgoode@gmail.com>.***
