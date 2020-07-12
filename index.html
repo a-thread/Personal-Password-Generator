@@ -15,71 +15,67 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 
-<!-- Main Content -->
-
 <body>
-  <div class="container">
-    <div class="card">
 
-      <!-- Header for Page -->
-      <header class="row justify-content-center">
-        <h1 class="">Password Generator</h1>
-      </header>
+  <!-- Main Content -->
+  <div class="container justify-content-center rounded">
 
-      <div class="card-body">
+    <!-- Header for Page -->
+    <header class="row justify-content-center">
+      <h1 class="">Password Generator</h1>
+    </header>
 
-        <!--Generated Password Area -->
-        <textarea class="row" readonly id="password" placeholder="Your Secure Password"
-          aria-label="Generated Password"></textarea>
+    <!--Generated Password Area -->
+    <div class="row passGen justify-content-center">
+      <textarea readonly id="password" placeholder="Your Secure Password"
+        aria-label="Generated Password"></textarea>
+    </div>
 
-        <!-- Slider Title -->
-        <div class="row justify-content-center p-0">
-          <h4 class="text-center p-0">Choose Password Length</h4>
-          </label>
-        </div>
+    <!-- Slider Title -->
+    <div class="row justify-content-center p-0">
+      <h4 class="text-center p-0">Choose Password Length</h4>
+      </label>
+    </div>
 
-        <!-- Slider determining passLength with a min of 8 & max of 128 -->
-        <div class="d-flex justify-content-center">
-          <div class="row w-75 pb-2">
-            <input type="range" class="custom-range" id="passLength" min="8" max="128">
-          </div>
-        </div>
-
-        <!-- Title for Character Selectors -->
-        <div class="row">
-          <h5 class="pb-0">Choose special characters:</h5>
-        </div>
-
-        <!-- Lower Case Checkbox -->
-        <div class="row form-check">
-          <input class="form-check-input" type="checkbox" id="lowerCase">
-          <label class="form-check-label" for="defaultCheck1">Lower Case Letters</label>
-        </div>
-
-        <!-- Upper Case Checkbox -->
-        <div class="row form-check">
-          <input class="form-check-input" type="checkbox" id="upperCase">
-          <label class="form-check-label">Upper Case Letters</label>
-        </div>
-
-        <!-- Number Checkbox -->
-        <div class="row form-check">
-          <input class="form-check-input" type="checkbox" id="numbers">
-          <label class="form-check-label">Numbers</label>
-        </div>
-
-        <!-- Special Characters Checkbox-->
-        <div class="row form-check">
-          <input class="form-check-input" type="checkbox" id="specialChar">
-          <label class="form-check-label">Special Characters</label>
-        </div>
-
-        <!-- Generate Button -->
-        <div class="row justify-content-center mx-auto">
-          <button id="custom-control-label" class="btn">Generate Password</button>
-        </div>
+    <!-- Slider determining passLength with a min of 8 & max of 128 -->
+    <div class="d-flex justify-content-center">
+      <div class="row w-75 pb-2">
+        <input type="range" class="custom-range" id="passLength" min="8" max="128">
       </div>
+    </div>
 
+    <!-- Title for Character Selectors -->
+    <div class="row">
+      <h5 class="pb-0">Choose special characters:</h5>
+    </div>
+
+    <!-- Lower Case Checkbox -->
+    <div class="row form-check">
+      <input class="form-check-input" type="checkbox" id="lowerCase">
+      <label class="form-check-label" for="defaultCheck1">Lower Case Letters</label>
+    </div>
+
+    <!-- Upper Case Checkbox -->
+    <div class="row form-check">
+      <input class="form-check-input" type="checkbox" id="upperCase">
+      <label class="form-check-label">Upper Case Letters</label>
+    </div>
+
+    <!-- Number Checkbox -->
+    <div class="row form-check">
+      <input class="form-check-input" type="checkbox" id="numbers">
+      <label class="form-check-label">Numbers</label>
+    </div>
+
+    <!-- Special Characters Checkbox-->
+    <div class="row form-check">
+      <input class="form-check-input" type="checkbox" id="specialChar">
+      <label class="form-check-label">Special Characters</label>
+    </div>
+
+    <!-- Generate Button -->
+    <div class="row justify-content-center mx-auto">
+      <button id="custom-control-label" class="btn">Generate Password</button>
     </div>
   </div>
 
