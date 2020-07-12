@@ -1,12 +1,12 @@
 # 03 JavaScript: Password Generator
 
-[My Password Generator.](https://a-thread.github.io/Password-Generator-Aiden/)
+[My Password Generator.](https://a-thread.github.io/Personal-Password-Generator/)
 
 The assignment was to create an application that generates a random password with user-selected criteria. It needed to run in the browser and feature a dynamically updated HTML and CSS powered by my JavaScript code. It also needed to be clean, polished, and responsive to multiple screen sizes. 
 
 ## Styling
 
-I used Bootstrap to streamline the responsiveness of the page and to add personal stylings.
+I used Bootstrap to streamline the responsiveness of the page and to add a cleaner look with personal stylings.
 
 ## Javascript
 
