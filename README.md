@@ -5,9 +5,7 @@
 ## Description
 **Password Generator** is an application that generates a random password with user-selected criteria: uppercase letters, lowercase letters, numbers & special characters. It runs in the browser and features a dynamically updated HTML and CSS powered by my JavaScript code.
 
-I used Bootstrap to streamline the responsiveness of the page and to add a cleaner look with personal stylings.
-
-## Technologies Used
+### Technologies Used
 - Bootstrap
 - Javascript
 - CSS
