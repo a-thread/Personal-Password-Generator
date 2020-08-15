@@ -1,6 +1,7 @@
 # 03 JavaScript: Password Generator
+![license](https://img.shields.io/github/license/a-thread/Personal-Password-Generator)
 
-[My Password Generator](https://a-thread.github.io/Personal-Password-Generator/)
+#### [My Password Generator](https://a-thread.github.io/Personal-Password-Generator/)
 
 ## Description
 **Password Generator** is an application that generates a random password with user-selected criteria: uppercase letters, lowercase letters, numbers & special characters. It runs in the browser and features a dynamically updated HTML and CSS powered by my JavaScript code.
