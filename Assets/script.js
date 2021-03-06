@@ -27,28 +27,27 @@ function buildPassword() {
   const results = [];
   let superArray = [];
 
-  if(document.getElementById("lowerCase").checked) {
+  if (document.getElementById("lowerCase").checked) {
     superArray = superArray.concat(lowerCaseArr);
   }
-  if(document.getElementById("upperCase").checked) {
+  if (document.getElementById("upperCase").checked) {
     superArray = superArray.concat(upperCaseArr);
   }
-  if(document.getElementById("numbers").checked) {
+  if (document.getElementById("numbers").checked) {
     superArray = superArray.concat(numbersArr);
   }
-  if(document.getElementById("specialChar").checked) {
+  if (document.getElementById("specialChar").checked) {
     superArray = superArray.concat(specialCharArr);
   }
-  if(superArray.length === 0) {
-    alert("Please check one character type");
-    return;
+  if (superArray.length === 0) {
+    return alert("Please select one character type");
   }
 
 
-// Setting loop to randomize choices and set password
-  for(var i = 0; i < length; i++) {
-  const index = Math.floor(Math.random() * superArray.length);
-  const digit = superArray[index];
+  // Setting loop to randomize choices and set password
+  for (var i = 0; i < length; i++) {
+    const index = Math.floor(Math.random() * superArray.length);
+    const digit = superArray[index];
     results.push(digit)
     console.log(results);
   }
@@ -58,12 +57,12 @@ function buildPassword() {
 // Writing password to the #password input
 function writePassword() {
   const password = buildPassword();
-if(password === null) {
-  passwordText.value = "";
-}
+  if (password === undefined) {
+    passwordText.value = "";
+  }
   const passwordText = document.querySelector("#password");
 
-  passwordText.value = password;
+  return passwordText.value = password;
 }
 
 // Add event listener to generate button

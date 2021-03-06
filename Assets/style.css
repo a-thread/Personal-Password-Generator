@@ -15,7 +15,8 @@ body {
 }
 
 h1 {
-  align-items: center;
+  text-align: center;
+  text-align: center;
   font-weight: bold;
   padding-top: 1.5rem;
   color: lightcoral;
@@ -28,6 +29,18 @@ h5, h4 {
 
 h5 {
   margin-top: 1rem;
+}
+
+output, 
+h6 {
+  font: sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+  padding: 1px;
+}
+
+h6 {
+  padding: 3px 0 0 3px;
 }
 
 header::after {
